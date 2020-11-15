@@ -1,7 +1,6 @@
 h1 {
 color: red;
 font-size: 80px;
-
 }
 
 .div1 {
@@ -18,3 +17,52 @@ h1:hover {background-color: yellow;
 ul {
 	list-style-type: none;
 }
+
+.my_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.my_navbar li {
+  background-color:orange;
+  font-size:20px;
+  padding:20px;
+}
+
+.header{
+  background-color: blue;
+  /*height: 50px;*/
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height:200px;
+  margin-bottom: 50px;
+
+}
+
+.card-image {
+  height: 100%;
+  /*margin-right:20px;*/
+}
+
+.card-text {
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+}
+
+.card-image img{
+  height:100%;
+  width:300px;
+  object-fit:cover;
+}
+
