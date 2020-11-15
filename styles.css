@@ -9,7 +9,7 @@ font-size: 80px;
 
 }
 
-h1:hover {background-color: black;
+h1:hover {background-color: yellow;
 	color: white;
 	transition: 0.2s;
 
