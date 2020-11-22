@@ -42,6 +42,9 @@ s
 
 .card {
   border: 1px solid black;
+box-shadow: 9px 5px 11px -3px rgb(111,125,136);
+-webkit-box-shadow: 9px 5px 11px -3px rgb(111,125,136);
+-moz-box-shadow: 9px 5px 11px -3px rgb(111,125,136);
   border-radius: 5px;
   display: flex;
   align-items: center;
