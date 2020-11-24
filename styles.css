@@ -76,13 +76,15 @@ a:hover {
   align-items: center;
   height:200px;
   margin-bottom: 50px;
-  background-color: white;
+  background-color: #fef8e2;
+  /*background-color: #fefaeb;*/
 }
 
 .card:hover {
     box-shadow: 11px 5px 11px -3px rgb(111,125,136);
   -webkit-box-shadow: 11px 5px 11px -3px rgb(111,125,136);
   -moz-box-shadow: 11px 5px 11px -3px rgb(111,125,136);
+  background-color: #fdf0c4;
 }
 
 .card-image {
