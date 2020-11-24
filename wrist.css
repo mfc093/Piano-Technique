@@ -1,0 +1,54 @@
+.wrist-banner {
+  width:100%;
+  height:300px;
+  background-image: url('images/wrist-banner.jpeg');
+  object-fit:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrist-banner h2{
+  color:white;
+  font-size:60px;
+
+}
+
+
+.card-grid-wrist{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+  width:100%;
+  height:100vh;
+}
+
+@media(max-width:1024px){
+  .card-grid-wrist {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card-wrist {
+  width:100%;
+  height:100%;
+  /*background-color:lightgreen;*/
+  box-shadow: 9px 5px 11px -3px rgb(111,125,136);
+  -webkit-box-shadow: 9px 5px 11px -3px rgb(111,125,136);
+  -moz-box-shadow: 9px 5px 11px -3px rgb(111,125,136);
+}
+
+.card-iframe {
+  height:80%;
+  width:100%;
+}
+
+.card-description {
+  height:20%;
+  width:100%;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  padding:5px;
+}

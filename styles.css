@@ -1,8 +1,8 @@
 /*Import styles*/
-@import "wrist.css"
-@import "forearm.css"
-@import "handposition.css"
-@import "attacks.css"
+@import "wrist.css";
+@import "forearm.css";
+@import "handposition.css";
+@import "attacks.css";
 
 /*color xulo rgb(52,153,102)*/
 
@@ -45,6 +45,7 @@ ul {
 .header {
   background-color: gold;
 }
+
 .my_navbar li {
   font-size:20px;
 }
