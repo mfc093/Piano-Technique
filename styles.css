@@ -38,7 +38,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%
+  width: 100%;
   padding:0;
 }
 
@@ -46,9 +46,11 @@ ul {
   background-color: gold;
 }
 
-
+.my_navbar li{
+  width: 50px;
+}
 .my_navbar a:hover {
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .my_navbar a {
@@ -102,8 +104,8 @@ a:hover {
 }
 
 .card-text:hover {
-  font-size: 40.5px;
-  color: #D63720;
+  font-size: 40.4px;
+  color: #262721;
 }
 .card-image img{
   height:100%;
