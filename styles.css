@@ -38,7 +38,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%
+  width: 100%;
   padding:0;
 }
 
@@ -46,8 +46,12 @@ ul {
   background-color: gold;
 }
 
-.my_navbar li {
-  font-size:20px;
+
+.my_navbar li{
+  width: 50px;
+}
+.my_navbar a:hover {
+  font-size: 26px;
 }
 
 .my_navbar a {
@@ -55,14 +59,14 @@ ul {
   text-decoration: none;
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 
-
-
 /*Cards*/
+a:hover {
+ text-decoration: none;
+}
 
 .card {
   box-shadow: 9px 5px 11px -3px rgb(111,125,136);
@@ -73,15 +77,23 @@ ul {
   align-items: center;
   height:200px;
   margin-bottom: 50px;
-  background-color: white;
+  background-color: #fef8e2;
+  /*background-color: #fefaeb;*/
+}
 
+.card:hover {
+    box-shadow: 11px 5px 11px -3px rgb(111,125,136);
+  -webkit-box-shadow: 11px 5px 11px -3px rgb(111,125,136);
+  -moz-box-shadow: 11px 5px 11px -3px rgb(111,125,136);
+  background-color: #fdf0c4;
 }
 
 .card-image {
   height: 100%;
   margin-right:20px;
-
 }
+
+
 
 .card-text {
   height:100%;
@@ -91,9 +103,13 @@ ul {
   align-items: center;
   font-size: 40px;
   text-align: center;
-
+  color: #262721;
 }
 
+.card-text:hover {
+  font-size: 40.4px;
+  color: #262721;
+}
 .card-image img{
   height:100%;
   width:300px;
@@ -105,7 +121,7 @@ ul {
 /*Footer*/
 
 .footer {
-background-color: grey;
+background-color: black;
 height: 100px;
 width: 100%;
 display: flex;
