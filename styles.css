@@ -68,7 +68,7 @@ ul {
 .submenu{
   position: absolute;
   background:  #fefaeb;
-  width: 120%;
+  width: max-content;
   visibility: hidden;
   opacity: 0;
   transition: opacity 1.5s;
@@ -76,9 +76,13 @@ ul {
 
 .submenu li a{
   display: block;
-  padding: 15px;
+  padding: 10px;
   color: black;
   font-family: 'Open sans';
+}
+
+.submenu li{
+  width: fit-content;
 }
 
 .my_navbar li:hover .submenu{
