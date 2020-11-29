@@ -50,10 +50,11 @@ ul {
 
 .my_navbar li{
   width: 25px;
+/*  position: relative;*/
 }
-.my_navbar a:hover {
+/*.my_navbar a:hover {
   font-size: 26px;
-}
+}*/
 
 .my_navbar a {
   color: black;
@@ -64,7 +65,28 @@ ul {
 }
 
 
+.submenu{
+  position: absolute;
+  background:  #fefaeb;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.submenu li a{
+  display: block;
+  padding: 15px;
+  color: black;
+  font-family: 'Open sans';
+}
+
+.my_navbar li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+}
 /*Cards*/
+
 a:hover {
  text-decoration: none;
 }
@@ -94,7 +116,6 @@ a:hover {
   height: 100%;
   margin-right:20px;
 }
-
 
 
 .card-text {
