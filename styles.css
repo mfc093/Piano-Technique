@@ -28,6 +28,49 @@ h1:hover {background-color: #D63720;
 
 }
 
+h3 {
+  color:white;
+  background-color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+button {
+  margin-top:;
+  margin-bottom: 30px;
+  box-shadow: 5px 5px 11px -3px rgb(111,125,136);
+  -webkit-box-shadow: 5px 5px 11px -3px rgb(111,125,136);
+  -moz-box-shadow: 5px 5px 11px -3px rgb(111,125,136);
+display: flex;
+}
+
+
+p {
+  display: flex;
+  justify-content: center;
+}
+.button1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+button:hover {
+  background-color: #e6623d;
+  color: white;
+  transition: 0.3;
+}
+
+/*Cambiar color resposta del click*/
+/*#demo p1 {
+  color: red;
+}*/
+
+
 ul {
 	list-style-type: none;
 }
