@@ -12,8 +12,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Piano Technique</title>
 
+<script>
+function sayHello() {
+  document.getElementById("demo").innerHTML = "Congratulations! You are Pollini!";
+  window.alert("Welcome to a whole new world of knowledge and dreams!");
+  document.getElementById("bodyid").style.backgroundColor="gold";
+
+}
+</script>
+
 </head>
-<body>
+<body id=bodyid>
   <div class="header">
   <div class="container">
     <!-- <div class="logo"> </div> -->
@@ -41,7 +50,7 @@
 <p id="demo">Click below and discover wich pianist you are!.</p>
 
 <div class="button1"><button type="button"
-  onclick='document.getElementById("demo").innerHTML = "Congratulations! You are Pollini!"'> Find out!</button></div>
+  onclick="sayHello()">Find out!</button></div>
     <div class="card-container">
 
       <a href="wrist.html">
@@ -75,6 +84,6 @@
   </div>
 </div>
 <div class="footer">Piano Technique - Copyright 2020</div>
-<script>window.alert("Welcome to a whole new world of knowledge and dreams!")</script>
+
 </body>
 </html>
