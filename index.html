@@ -1,39 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- include bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-<!-- include stylesheet -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Piano Technique</title>
 
-<script>
-function sayHello() {
-  document.getElementById("demo").innerHTML = "Congratulations! You are Pollini!";
-  window.alert("Welcome to a whole new world of knowledge and dreams!");
-  // document.getElementById("bodyid").style.backgroundColor="gold";
-  // document.getElementById("wrist").innerHTML = "Canello";
-  // document.querySelector(".footer").style.backgroundColor="gold";
-  // document.getElementsByClassName('card')[2].style.backgroundColor="red";
-  // document.querySelector(".card-container").children[0].innerHTML = "hola";
+  <!-- include bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-}
-//Ojo que amb doble entrecomillado no em funcionava el selector
-function changeOrder(){
-  const firstCard = document.querySelector('.card-container').children[0].innerHTML;
-  document.querySelector('.card-container').children[0].innerHTML = document.querySelector('.card-container').children[1].innerHTML;
-  document.querySelector('.card-container').children[1].innerHTML = document.querySelector('.card-container').children[2].innerHTML;
-  document.querySelector('.card-container').children[2].innerHTML = document.querySelector('.card-container').children[3].innerHTML;
-  document.querySelector('.card-container').children[3].innerHTML = firstCard;
-}
-</script>
+  <!-- include stylesheet -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <!-- include scripts -->
+  <script src="index.js"></script>
+
+  <!-- add some additional fonts from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+  <!-- Donde estan los scripts??? Aver si los encuentras 🤪 -->
 
 </head>
+
 <body id=bodyid>
   <div class="header">
   <div class="container">
@@ -43,12 +31,12 @@ function changeOrder(){
       <li><a href="">Technique</a></li>
       <li><a href="">History</a></li>
       <li><a href="">Authors</a>
-      <ul class="submenu">
-        <li><a href="">Blanche Selva</a></li>
-        <li><a href="">Tobias Matthay</a></li>
-        <li><a href="">Alfred Cortot</a></li>
-        <li><a href="">Marie Jaëll</a></li>
-      </ul>
+        <ul class="submenu">
+          <li><a href="">Blanche Selva</a></li>
+          <li><a href="">Tobias Matthay</a></li>
+          <li><a href="">Alfred Cortot</a></li>
+          <li><a href="">Marie Jaëll</a></li>
+        </ul>
       </li>
       <li><a href="">Contact</a></li>
     </ul>
@@ -58,13 +46,14 @@ function changeOrder(){
     <h1>Piano Technique</h1>
     <h2>The greatest resource of piano skills</h2>
     <h3>Wich pianist are you?</h3>
+    <p id="demo">Click below and discover wich pianist you are!.</p>
 
-<p id="demo">Click below and discover wich pianist you are!.</p>
-<button type="button" class="button2" onclick="changeOrder()">Chorprecha</button>
-<div class="button1">
-  <button type="button"
-  onclick="sayHello()">Find out!</button>
-</div>
+    <button type="button" class="button2" onclick="changeOrder()">Chorprecha</button>
+
+    <div class="button1">
+      <button type="button" onclick="sayHello()">Find out!</button>
+    </div>
+
     <div class="card-container">
 
       <a href="wrist.html">
