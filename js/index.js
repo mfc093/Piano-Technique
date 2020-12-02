@@ -33,6 +33,7 @@ function sayHello() {
     //generate two random HEX colors
     const randomHex1 = '#' + Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10);
     const randomHex2 = '#' + Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10);
+    const randomHex3 = '#' + Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10) + Math.floor(Math.random() * 10);
 
     //assign random size to the font-size
     $(this).css('font-size', randomSize);
@@ -40,11 +41,13 @@ function sayHello() {
     //assign random color 1 as background-color
     $(this).css('background-color', randomHex1);
 
+    $('body').css('background-color', randomHex2);
+
     //assign random color 2 as font color
     $(this).css('color', randomHex2);
 
     //i va de propina tambien le asignem el color al header, toma ya
-    $('.my_navbar').css('background-color', randomHex2);
+    $('.my_navbar').css('background-color', randomHex3);
   });
 
 });
