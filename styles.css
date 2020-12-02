@@ -43,7 +43,7 @@ button {
   box-shadow: 5px 5px 11px -3px rgb(111,125,136);
   -webkit-box-shadow: 5px 5px 11px -3px rgb(111,125,136);
   -moz-box-shadow: 5px 5px 11px -3px rgb(111,125,136);
-display: flex;
+  display: flex;
 }
 
 
