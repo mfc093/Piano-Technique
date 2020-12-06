@@ -82,8 +82,8 @@
 
 
 table, th, td{
-  border: 1px solid black;
-  border-collapse: collapse;
+  border: 1px solid grey;
+ /* border-collapse: collapse;*/
   width: 200px;
   padding: 8px;
   margin-bottom: 30px;
