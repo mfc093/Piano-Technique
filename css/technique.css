@@ -108,7 +108,11 @@ th{
   background-color: gold;
 }
 
-
+.czerny {
+  display: block;
+  text-align: right;
+  margin-bottom: 40px;
+}
 
 
 
