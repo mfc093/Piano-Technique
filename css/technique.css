@@ -19,6 +19,7 @@
  justify-content: center;
  align-items: center;
  cursor: pointer;
+ border-radius: 2px;
 }
 
 .card-technique2{
@@ -28,6 +29,7 @@
   display: flex;
  justify-content: center;
  align-items: center;
+ border-radius: 2px;
  }
 
  .card-technique3{
@@ -37,6 +39,7 @@
   display: flex;
  justify-content: center;
  align-items: center;
+ border-radius: 2px;
  }
 
  .card-technique4{
@@ -46,6 +49,7 @@
   display: flex;
  justify-content: center;
  align-items: center;
+ border-radius: 2px;
  }
 
  .card-technique5{
@@ -55,6 +59,7 @@
   display: flex;
  justify-content: center;
  align-items: center;
+ border-radius: 2px;
  }
 
  .card-technique6{
@@ -64,6 +69,7 @@
   display: flex;
  justify-content: center;
  align-items: center;
+ border-radius: 2px;
  }
 
 .tech-container{
