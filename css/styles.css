@@ -35,8 +35,10 @@ h2{
   align-items: center;
   justify-content: space-around;
   background-position: center;
-  background-size: 400px;
-  opacity:
+  background-size: 100%;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  color: #fefaeb;
 }
 
 h3 {
