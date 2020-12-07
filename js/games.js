@@ -45,7 +45,7 @@
 
 
 
-});
+// });
 
 function sayHello() {
     document.getElementById("demo").innerHTML = "Congratulations! You are Pollini!";
