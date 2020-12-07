@@ -1,7 +1,7 @@
 .wrist-banner {
   width:100%;
   height:300px;
-  background-image: url('images/wrist-banner.jpeg');
+  background-image: url('../images/wrist-banner.jpeg');
   object-fit:cover;
   display: flex;
   justify-content: center;
